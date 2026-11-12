@@ -1,0 +1,17 @@
+# Stack Primitive Variables
+variable: int c = 5
+variable: int age = 30
+variable: boolean isValid = true
+
+# Stack Reference Variables
+variable: myCar -> 0x01
+object: 0x01 | Car | speed: 60, model: 0x04
+object: 0x04 | String | value: Civic
+
+variable: owner -> 0x02
+object: 0x02 | Person | age: 28, name: 0x05
+object: 0x05 | String | value: Alice
+
+variable: residence -> 0x03
+object: 0x03 | House | price: 1000000, type: 0x06
+object: 0x06 | String | value: boujee
